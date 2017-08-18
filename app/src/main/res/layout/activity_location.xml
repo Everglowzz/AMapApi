@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.everglow.amapapi.application.activity.LocationActivity">
+
+    <TextView
+        android:id="@+id/tv_show"
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:padding="20dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="请开始定位.."
+       />
+    <ProgressBar
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:id="@+id/pb"
+        android:visibility="gone"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+       />
+
+    <Button
+        android:id="@+id/btn_location"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开始定位"
+      />
+
+</RelativeLayout>
